@@ -12,5 +12,8 @@
     "javascript"
   ],
   "author": "Anton Strand",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
 }
