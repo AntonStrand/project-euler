@@ -1,0 +1,17 @@
+{
+  "name": "problem-2",
+  "version": "1.0.0",
+  "description": "Even Fibonacci numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Functional",
+    "FP",
+    "javascript"
+  ],
+  "author": "Anton Strand",
+  "license": "ISC",
+  "dependencies": {}
+}
