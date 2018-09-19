@@ -10,7 +10,7 @@ const last = xs => xs[xs.length - 1]
 
 // fibonacci :: Number -> [Number]
 const fibonacci = (maxTerm, current = 2, acc = [1]) =>
-  current <= maxTerm
+  current < maxTerm
     ? fibonacci(maxTerm, current + last(acc), [...acc, current])
     : acc
 
