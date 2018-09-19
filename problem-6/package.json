@@ -1,0 +1,20 @@
+{
+  "name": "problem-6",
+  "version": "1.0.0",
+  "description": "Sum square difference",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Functional",
+    "Javascript",
+    "FP",
+    "pointfree"
+  ],
+  "author": "Anton Strand",
+  "license": "ISC",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
