@@ -1,0 +1,16 @@
+{
+  "name": "problem-1",
+  "version": "1.0.0",
+  "description": "Solution for Euler problem 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "FP",
+    "Functional",
+    "javascript"
+  ],
+  "author": "Anton Strand",
+  "license": "ISC"
+}
