@@ -16,7 +16,7 @@ const {
   __
 } = require('ramda')
 
-/* point free version - with ramda / Sanctuary */
+/* point free version - with ramda */
 
 const unless = ifElse(__, identity, __)
 
