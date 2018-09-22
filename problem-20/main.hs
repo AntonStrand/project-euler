@@ -11,5 +11,5 @@ toDigits :: Integral a => a -> [a]
 toDigits 0 = []
 toDigits n = toDigits(n `div` 10) ++ [n `mod` 10]
 
-digitSum :: Integer -> Integer
-digitSum = sum . toDigits . factorial
+sumFactorialDigits :: Integer -> Integer
+sumFactorialDigits = sum . toDigits . factorial
