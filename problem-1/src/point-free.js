@@ -33,9 +33,6 @@ const getMultiplesBy3or5 = unless(isMultiplesBy3or5, always(0))
 const sum = reduce(useWith(add, [identity, getMultiplesBy3or5]), 0)
 
 // :: Number -> Number
-const sumAllMultiplesTo = compose(
-  sum,
-  range(1)
-)
+const sumAllMultiplesTo = compose(sum, range(1))
 
 module.exports = sumAllMultiplesTo
