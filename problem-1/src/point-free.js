@@ -21,12 +21,7 @@ const {
 const unless = ifElse(__, identity, __)
 
 // :: Number -> Number -> Booleen
-const isMultiplesBy = curry(
-  compose(
-    equals(0),
-    flip(modulo)
-  )
-)
+const isMultiplesBy = curry(compose(equals(0),flip(modulo)))
 
 // :: Number -> Boolean
 const isMultiplesBy3or5 = converge(or, [isMultiplesBy(5), isMultiplesBy(3)])
