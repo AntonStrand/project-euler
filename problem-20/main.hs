@@ -13,3 +13,8 @@ toDigits n = toDigits(n `div` 10) ++ [n `mod` 10]
 
 sumFactorialDigits :: Integer -> Integer
 sumFactorialDigits = sum . toDigits . factorial
+
+main = do
+  putStrLn "Enter the factorial number"
+  input <- getLine
+  print (sumFactorialDigits $ read input)
