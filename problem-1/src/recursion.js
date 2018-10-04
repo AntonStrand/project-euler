@@ -16,7 +16,4 @@ const getMulti = x => (isMulti(x, 3) || isMulti(x, 5) ? x : 0)
 const sum = ([x, ...xs], acc = 0) =>
   x === undefined ? acc : sum(xs, acc + getMulti(x))
 
-module.exports = compose(
-  sum,
-  range(1)
-)
+module.exports = compose(sum, range(1))
